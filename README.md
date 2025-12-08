@@ -365,6 +365,27 @@ El resto de componentes identificados:
 - **Emanuel García / José Murcia / Alejandro Salazar / Julio Morales:** Armado del circuito físico en protoboard.
 - **Alejandro Salazar / Emanuel García / José Murcia / Julio Morales:** Elaboración de informe en sucio como guía para el contenido del Markdown.
 
+## Realización del circuito en físico
+
+![Paso uno realización circuito](/img/circuitoP1.jpg)
+> 1. Planteamiento básico con botones (antes de conseguir el dip switch), y prueba de circuito usando el display cátodo (minterminos) para comprobar si funciona.
+
+![Paso uno realizado](/img/circuitoP1d1.jpg)
+
+![Paso dos realización circuito](/img/circuitoP2.jpg)
+> 2. Construcción del circuito con dip switch usando el display ánodo (uso de maxterminos).
+
+![Paso tres realización circuito](/img/circuitoP3.jpg)
+> 3. Simplificación y unión de ambos circuitos para que funcionen con el mismo dip switch, así comprobando el display que muestra la letra normal (cátodo común) y display que muestre la letra espejo (ánodo común).
+
+![Paso 4 realización circuito](/img/circuitoP4.jpg)
+> 4. Circuito en físico completo y con correcto funcionamiento.
+
+## Fotos de trabajo en equipo
+
+![fotica](/img/equipo.jpg)
+![fotica2](/img/equipo2.jpg)
+
 # Conclusiones
 
 1. Se logró diseñar e implementar funciones booleanas simplificadas mediante mapas de Karnaugh, optimizando el circuito combinacional y permitiendo que ambos displays mostraran correctamente las letras requeridas, cumpliendo plenamente el propósito de visualización digital del proyecto.

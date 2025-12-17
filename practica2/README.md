@@ -6,20 +6,10 @@ ESTRUCTURA QUE DEBEMOS TENER:
 - [x] EXPLICACION DEL SISTEMA
 - [ ] EXPLICACION DEL PROCESSING
 - [x] LO DEL PRESUPUESTO
-- [ ] RESULTADOS
+- [x] RESULTADOS
 - [x] CONCLUSIONES
 - [x] APORTES INDIVIDUALES
 - [x] REFERENCIAS BIBLIOGRÁFICAS
-
-PARA EL VIDEO, ORDEN:
-- [x] Presentación del grupo y explicacion de la practica
-- [ ] Demostracion del simulador y progra componente a componente
-- [x] se muestra el armado y prueba en fisico 
-- [x] se repite con el resto
-- [x] Explicacion del codigo y simulador final 
-- [x] se muestra el armado de todo en fisico
-- [x] pruebas de los leds y luz
-- [ ] muestra final usando processing
 
 ---
 
@@ -141,10 +131,10 @@ Desarrollar en los estudiantes el conocimiento y la capacidad para diseñar e im
 
   El sistema consiste en los siguientes componentes y microcontroladores:
 
-  - Sensor detector de temperatura y humedad DHT11.
-  - Fotorresistencia LDR lm393.
-  - Buzzer piezoeléctrico.
-  - Leds.
+  - Sensor detector de temperatura y humedad DHT11
+  - Fotorresistencia LDR lm393
+  - Buzzer piezoeléctrico
+  - Leds
   - Arduino UNO
 
   Usando el sensor DHT11 y la fotorresistencia LDR se deben tomar los datos del entorno, tales como temperatura, humedad y la cantidad de luz del entorno, para posteriormente enviar los datos recaudados a una placa de pruebas Arduino UNO, que debe recibir los datos y procesarlos.
@@ -191,7 +181,7 @@ Los resultados obtenidos evidencian que el sistema cumple con los objetivos plan
 ## Circuito Emulado
 ![Circuito_Emulado](CircuitoEmulado.jpeg)
 
-## Circuito Emulado
+## Circuito Fisico
 ![Circuito_Fisico](CircuitoFisico.jpeg)
 
 ---

@@ -182,6 +182,18 @@ El sensor DHT11 proporcionó lecturas estables de temperatura y humedad ambienta
 
 Por otro lado, la fotorresistencia LDR permitió medir el nivel de iluminación ambiental mediante el conversor analógico-digital del Arduino, obteniendo valores entre 100 y 804 debido a la calibracion física del componente mismo, los cuales fueron normalizados a un porcentaje de 0 a 100. Estas lecturas reflejaron de forma consistente los cambios de luz en el entorno durante las pruebas realizadas.
 
+En cuanto a los actuadores, los LEDs respondieron correctamente según los rangos de temperatura establecidos: el LED verde se activó para temperaturas menores o igual 25 °C, el LED amarillo para temperaturas mayores a 25 °C o menores de 30 °C, y el LED rojo para temperaturas superiores o iguales a 30 °C. Asimismo, el buzzer se activó de manera automática cuando la temperatura superó el umbral crítico, emitiendo una señal sonora que permitió identificar de forma inmediata la condición de alerta.
+
+Así también, la aplicación desarrollada en Processing mostró un funcionamiento fluido y estable. El dashboard permitió la visualización en tiempo real de las variables ambientales mediante gráficas dinámicas, indicadores tipo gauge y un panel de alertas visuales que se activó correctamente al detectarse temperaturas mayores a 30 °C.
+
+Los resultados obtenidos evidencian que el sistema cumple con los objetivos planteados, integrando de forma eficiente hardware y software para el monitoreo ambiental en tiempo real, demostrando la correcta aplicación de los conceptos de sistemas embebidos, comunicación serial y visualización gráfica interactiva.
+
+## Circuito Emulado
+![Circuito_Emulado](CircuitoEmulado.jpeg)
+
+## Circuito Emulado
+![Circuito_Fisico](CircuitoFisico.jpeg)
+
 ---
 
 # Conclusiones

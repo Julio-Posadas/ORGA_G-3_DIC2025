@@ -51,6 +51,11 @@ Integrantes:
 Guatemala, 17 de diciembre del 2025
 
 ---
+# Introducción
+Los sistemas de monitoreo ambiental juegan un papel fundamental en diversa áreas como la agricultura, la automatización industrial y la aplicacion del internet de las cosas (IoT). 
+
+La presente práctica de laboratorio tiene como propósito el diseño e implementación de un sistema de monitoreo ambiental en tiempo real, integrando componentes de hardware y software mediante el uso de un microcontrolador arduino UNO. El sistema desarrollado es capaz de medir la temperatura y humedad ambiental utilizando un sensor digital DTH11, así como el nivel de luz mediante una fotoresistencia (LDR), procesando dichas lecturas y trasnmitiéndolas a una aplicacion de escritorio a través d ecomunicación serial.
+
 
 # Objetivos
 
